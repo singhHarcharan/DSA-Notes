@@ -1,0 +1,24 @@
+{
+  "name": "dsa-revision-notes",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "import-notes": "node scripts/import-notes.mjs"
+  },
+  "dependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "adm-zip": "latest",
+    "mammoth": "latest",
+    "next": "latest",
+    "prism-react-renderer": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest"
+  }
+}
